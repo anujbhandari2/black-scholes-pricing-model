@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from black_scholes_model import BlackScholes
 import matplotlib.pyplot as plt
+import matplotlib as mpl
 import seaborn as sns
 import numpy as np
 from numpy import log, sqrt, exp
@@ -57,7 +58,7 @@ colors = ["red", "white", "green"]
 custom_cmap = LinearSegmentedColormap.from_list("custom_pnl", colors, N=256)
 # Check if colormap is already registered to avoid re-registration
 if "custom_pnl" not in plt.colormaps():
-    plt.register_cmap(cmap=custom_cmap)
+    mpl.colormaps.register(cmap=custom_cmap)
 
 # Sidebar for User Inputs
 with st.sidebar:
