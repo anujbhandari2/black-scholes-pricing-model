@@ -6,7 +6,7 @@
 
 ---
 
-## Features
+## 📌 Features
 
 ### 1. Options Pricing & Profit/Loss Visualization
 - **Interactive Heatmaps**: Visualize Call and Put option prices or P&L across a grid of spot prices and volatilities.
