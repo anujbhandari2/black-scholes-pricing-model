@@ -2,7 +2,7 @@
 
 **Black-Scholes Pricing Model** dashboard—a powerful, interactive tool built with Streamlit to explore option pricing and profitability using the Black-Scholes model. This repo offers a user-friendly interface for visualizing how option prices and profit/loss (P&L) respond to changes in market parameters like spot price, volatility, and time to maturity.
 
-**[Try it live!]()**
+**[Try it live!](https://black-scholes-option-pricing-model.streamlit.app/)**
 
 ---
 
@@ -32,3 +32,6 @@ Make changes to the repo locally:
    ```bash
    git clone https://github.com/anujbhandari2/black-scholes-pricing-model.git
    cd black-scholes-pricing-model
+
+Note: add the following to requirements.txt
+- streamlit==1.40.1
