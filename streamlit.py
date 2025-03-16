@@ -133,6 +133,8 @@ def plot_pnl_heatmap(bs_model, spot_range, vol_range, strike, call_purchase_pric
 
 # Main Page
 st.title("Black-Scholes Pricing Model")
+st.markdown("---")
+
 
 # Table of Inputs
 st.subheader("Input Parameters")
